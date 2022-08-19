@@ -4,8 +4,17 @@ p {
   text-align: center;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Impact, serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 body {
@@ -20,15 +29,21 @@ body {
   margin: auto;
   padding: 20px 20px 20px 20px;
 }
+
+.established {
+  font-style: italic;
+}
+
 .item {
   display: flex;
 }
 
 .item p {
   display: inline-block;
- }
+}
 
- .flavor, .dessert {
+.flavor,
+.dessert {
   text-align: left;
   width: 75%;
 }
